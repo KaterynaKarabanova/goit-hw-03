@@ -381,7 +381,6 @@ margin-left: auto;
     padding: 32px 16px;
     border: 1px solid var(--background-cornflower);
     border-top: none;
-
 }
 .portfolio-all-list-li:not(:nth-child(3n+3)) {
     margin-right: 24px;
