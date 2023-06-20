@@ -45,21 +45,23 @@ body {
 }
 
 /* header*/
-header {
+.page-header {
     background-color: var(--base-white);
     border-bottom: 1px solid var(--background-cornflower);
+    padding: 24px 0;
 }
 
 .container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 
 .list {
     list-style: none;
 }
+
 
 .container-header,
 nav,
@@ -68,10 +70,7 @@ nav,
     display: flex;
 }
 
-.container-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 
 /* logo*/
 .logo {
@@ -204,6 +203,7 @@ margin-left: auto;
 }
 .invisible-title {
     visibility: hidden;
+    display: none;
 }
 
 .studio {
